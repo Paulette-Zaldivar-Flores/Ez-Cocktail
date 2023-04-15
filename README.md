@@ -18,7 +18,7 @@ EZ Cocktails is a responsive website where you can search for your favourite coc
 
 ### Live version
 
-https://ez-cocktails-prod.netlify.app/
+https://ez-cocktails.netlify.app/
 
 ### Running the project locally
 
