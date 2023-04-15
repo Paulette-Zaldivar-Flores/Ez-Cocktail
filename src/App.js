@@ -2,7 +2,6 @@ import { useEffect } from 'react';
 import GlobalStyles from './styles/GlobalStyles';
 import styled from 'styled-components/macro';
 import Header from './components/Header/Header';
-import backgroundImage from './images/background-image.jpg';
 import {
   BrowserRouter as Router,
   Routes,
@@ -22,7 +21,7 @@ import Footer from './components/Footer/Footer';
 // import TestContextFilters from './components/_TestComponents/TestContextFilters';
 
 const Background = styled.div`
-  background-image: url(${backgroundImage});
+  background-color: #171717;
   background-size: cover;
   min-height: 100%;
 `;
@@ -36,7 +35,7 @@ const Wrapper = styled.div`
 
   ${Media.upToTablet`
     padding-top: 40px;
-  
+
   `}
 `;
 

@@ -5,7 +5,7 @@ export const ButtonStyles = css`
   color: var(--secondary-color);
   padding: 10px;
   border: none;
-  border-radius: 3px;
+  border-radius: 10px;
   font-weight: bold;
   &:disabled {
     background-color: var(--primary-disabled);

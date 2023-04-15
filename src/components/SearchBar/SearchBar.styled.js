@@ -7,7 +7,7 @@ export const SearchBarWrapper = styled.div`
 
   input {
     border-radius: 3px;
-    padding: 8px 10px;
+    padding: 15px 20px;
     outline: none !important;
     border-color: var(--primary-color);
     width: 300px;

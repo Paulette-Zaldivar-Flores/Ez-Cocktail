@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { useParams, Link } from 'react-router-dom';
+import { useParams} from 'react-router-dom';
 import { useSelectedCocktailContext } from '../../context/use-context';
 import { CONTEXT_STATUS } from '../../context/constants';
 import Spinner from '../UI/Spinner/Spinner';
@@ -25,7 +25,7 @@ const CocktailDetails = () => {
   const { selectedCocktail, updateSelectedCocktail, clearSelectedCocktail } =
     useSelectedCocktailContext();
   const { data, status, error } = selectedCocktail;
-  const { IDLE, LOADING, SUCCESS, ERROR } = CONTEXT_STATUS;
+  const { LOADING, SUCCESS, ERROR } = CONTEXT_STATUS;
   const id = +useParams().id;
 
   useEffect(() => {

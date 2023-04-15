@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from '../../images/logo.png';
 import { useLocation, Link } from 'react-router-dom';
 import { HeaderWrapper } from './Header.styled';
 
@@ -16,9 +15,6 @@ export default function Header() {
       <Link to='/' className='back-cta'>
         Back
       </Link>
-      <a className='logo' href='/'>
-        <img src={logo} alt='Ez-Logo' />
-      </a>
       <h1> EZ Cocktails</h1>
     </HeaderWrapper>
   );
