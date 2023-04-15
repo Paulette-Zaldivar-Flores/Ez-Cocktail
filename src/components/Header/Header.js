@@ -13,7 +13,7 @@ export default function Header() {
   return (
     <HeaderWrapper notRoot={notRoot()}>
       <Link to='/' className='back-cta'>
-        Back
+      Back
       </Link>
       <h1> EZ Cocktails</h1>
     </HeaderWrapper>
