@@ -40,11 +40,12 @@ export const HeaderWrapper = styled.header`
   }
 
   h1 {
-    margin-top: 0px;
+    margin-top: 65px;
     font-size: 70px;
     margin-bottom: 20px;
     color: var(--primary-color);
     font-family: 'Oswald', sans-serif;
+    text-shadow: 2px 2px 2px white;
 
     ${Media.upToTablet`
       font-size: 50px;

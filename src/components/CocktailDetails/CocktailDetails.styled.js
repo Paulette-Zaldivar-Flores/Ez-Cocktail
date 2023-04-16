@@ -20,7 +20,7 @@ export const CocktailImage = styled.img`
   border-radius: 50%;
   aspect-ratio: 1/1;
   object-fit: cover;
-  border: 1px solid #ca0000;
+  border: 2px solid #ca0000;
 `;
 
 export const CocktailName = styled.h2`

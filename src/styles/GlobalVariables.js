@@ -5,7 +5,7 @@ export const GlobalVariables = css`
     --primary-color: 	#006d5b;
     --primary-color-light: 	#006d5b;
     --primary-color-dark: #009B81;
-    --primary-disabled: #00C9A8;
+    --primary-disabled: #0e9680;;
     --secondary-color: #ffffff;
     --font-family: 'Inter', sans-serif;
   }
