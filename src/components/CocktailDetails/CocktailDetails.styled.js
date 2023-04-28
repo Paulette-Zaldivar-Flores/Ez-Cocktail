@@ -2,7 +2,7 @@ import styled from 'styled-components/macro';
 import Media from '../../styles/Media';
 
 export const Wrapper = styled.article`
-  color: white;
+  color: #5A5A5A;
   font-size: 1.2rem;
   line-height: 2;
 `;
@@ -55,7 +55,6 @@ export const IngredientsWrapper = styled.section`
 `;
 
 export const IngredientsTitle = styled.h3`
-  font-family: 'Oswald', sans-serif;
   font-size: 2rem;
   letter-spacing: 1.5px;
 `;
@@ -91,7 +90,6 @@ export const RecipeWrapper = styled.section`
 `;
 
 export const RecipeTitle = styled.h3`
-  font-family: 'Oswald', sans-serif;
   font-size: 2rem;
   letter-spacing: 1.5px;
 `;
