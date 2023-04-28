@@ -20,6 +20,7 @@ export const DropDownWrapper = styled.div`
   label {
     font-weight: bold;
     margin-bottom: 0.5rem;
+    color:black;
   }
 `;
 

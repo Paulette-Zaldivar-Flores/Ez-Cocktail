@@ -6,6 +6,9 @@ import {
 import { CONTEXT_STATUS } from '../../context/constants';
 import { Button } from '../UI/Button.styled';
 import { SearchBarWrapper } from './SearchBar.styled';
+import Header from '../Header/Header';
+
+
 
 const SearchBar = () => {
   const [message, setMessage] = useState('');
@@ -31,7 +34,9 @@ const SearchBar = () => {
   };
 
   return (
+
     <SearchBarWrapper>
+       <Header />
       <input
         onChange={(event) => handleChange(event)}
         placeholder='Search for a cocktail...'

@@ -1,7 +1,7 @@
 import styled from 'styled-components/macro';
 
 export const Wrapper = styled.footer`
-  color: white;
+  color: black;
   text-align: center;
   margin-top: 10rem;
 `

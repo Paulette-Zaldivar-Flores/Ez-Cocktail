@@ -1,7 +1,8 @@
 import { useEffect } from 'react';
 import GlobalStyles from './styles/GlobalStyles';
 import styled from 'styled-components/macro';
-import Header from './components/Header/Header';
+import Navbar from './components/Navbar/Navbar';
+
 import {
   BrowserRouter as Router,
   Routes,
@@ -21,7 +22,7 @@ import Footer from './components/Footer/Footer';
 // import TestContextFilters from './components/_TestComponents/TestContextFilters';
 
 const Background = styled.div`
-  background-color: #171717;
+  background-color: #fbf2ea;
   background-size: cover;
   min-height: 100%;
 `;
@@ -30,8 +31,9 @@ const Wrapper = styled.div`
   width: 80%;
   max-width: 60rem;
   margin: 0 auto;
-  padding-top: 80px;
+  padding-top: 40px;
   padding-bottom: 28px;
+
 
   ${Media.upToTablet`
     padding-top: 40px;
@@ -50,8 +52,8 @@ function App() {
     <Router>
       <ScrollToTop />
       <Background>
+      <Navbar/>
         <Wrapper>
-          <Header />
           <Routes>
             <Route path='/cocktails/:id' element={<CocktailDetailsPage />} />
             <Route exact path='/cocktails' element={<Navigate to='/' />} />
