@@ -1,4 +1,4 @@
-# EZ Cocktails
+# EZ Cocktails🍸
 
 [Chingu](https://www.chingu.io/) Voyage-40 (geckos-team-20)
 
